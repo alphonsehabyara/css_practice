@@ -1,0 +1,128 @@
+body {
+  padding: 40px 50px 40px 50px;
+  font-size: 28px;
+  color: darkgreen;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.wrapper {
+  padding: 60px;
+  margin: 0 auto;
+  max-width: 900px;
+  border: 10px double black;
+  border-bottom: solid;
+}
+
+header {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+header img {
+  width: 100%;
+  max-width: 200px;
+  border--triangle: : 50%;
+  box-shadow: 0 2px rgba(1, 1, 1, 1);
+}
+
+section {
+  margin: 40px auto 0;
+  padding-bottom: 40px;
+}
+
+h2 {
+  color: white;
+  padding: 0px 50px 0px 50px;
+  margin-bottom: 40px;
+  background: black;
+  box-shadow: 0 7px rgba(0,0,0,0.5);
+}
+
+section p {
+  margin: 20px 0;
+  padding: 0 40px;
+  font-size: 18px;
+}
+
+section p a {
+  color: black;
+}
+
+section p a:hover,
+section p a:focus,
+section p a:active {
+  color: #ff6600;
+}
+
+section ul {
+  padding-right: 40px;
+}
+
+/* The Summary Section (this is a comment) */
+.summary p {
+  font-size: 28px;
+}
+
+.contact {
+  color: blue;
+  padding: 60px;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: left;
+  background: lightblue;
+  border: 8px dotted red;
+  box-shadow: 0 4px rgba(0,0,0,0.15);
+}
+
+.contact h3 {
+  margin-top: 0;
+}
+
+.email {
+  font-size: 24px;
+  margin-top: 10px;
+  color: blue;
+  background: white;
+  padding: 10px 40px;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0 4px rgba(0,0,0,0);
+  transition: background 0.2s, color 0.2s;
+}
+
+.email:hover,
+.email:focus,
+.email:active {
+  color: yellow;
+  background: rgb(255, 102, 255);
+}
+
+.social {
+  margin: 0 15px;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+  body {
+    padding: 10px;
+  }
+  
+  .wrapper {
+    padding: 0px;
+  }
+  
+  header {
+    padding: 20px 20px 0;
+  }
+  
+}
